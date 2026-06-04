@@ -1,10 +1,38 @@
-END-TO-END CYBER THREAT DETECTION PIPELINE USING ISOLATION FOREST AND XGBOOST is an AI-powered cybersecurity solution designed to detect, classify, and explain network anomalies in real time. Inspired by the human immune system, the project continuously monitors network traffic, identifies suspicious activities, and provides actionable insights for threat mitigation.
 
-The system uses Isolation Forest for anomaly detection and XGBoost for attack classification, enabling accurate identification of malicious network behavior. To improve transparency and trust, SHAP (SHapley Additive Explanations) is integrated to explain model predictions and highlight the key factors behind each decision.
+Problem Statement
 
-An interactive dashboard built with Streamlit and Plotly allows users to visualize anomalies, attack trends, and model outputs through dynamic charts and reports. The project is trained and evaluated using the KDD Cup 99 network intrusion dataset and is deployed using Hugging Face Spaces for easy accessibility.
+Modern computer networks generate massive volumes of traffic data, making it difficult for traditional security systems to accurately detect and respond to cyber threats in real time. Signature-based detection methods often fail to identify unknown or evolving attacks, while manual analysis is time-consuming and inefficient.
+This project proposes an End-to-End Network Threat Detection and Classification Pipeline Using Isolation Forest and XGBoost. The system leverages Isolation Forest to detect anomalous network behavior and XGBoost to classify identified threats. By automating data preprocessing, anomaly detection, attack classification, and threat analysis, the pipeline aims to improve detection accuracy, reduce response time, and enhance overall network security against both known and unknown cyber attacks.
 
-This project demonstrates the integration of Machine Learning, Explainable AI, and Cybersecurity to create an intelligent and scalable threat detection system.
+Project Objectives
+
+To develop an end-to-end cybersecurity pipeline for automated network threat detection and classification.
+To preprocess and analyze network traffic data for effective threat identification.
+To use Isolation Forest for detecting anomalous network activities and potential cyber attacks.
+To employ XGBoost for accurate classification of detected threats into attack categories.
+To improve the accuracy and efficiency of cyber threat detection using machine learning techniques.
+To provide real-time insights through visualizations and monitoring dashboards.
+To reduce manual intervention in network security analysis and threat management.
+To create a scalable and adaptable framework capable
+
+Modules List
+
+Data Collection Module
+Collects network traffic and cybersecurity datasets.
+Data Preprocessing Module
+Cleans, transforms, encodes, and scales the data for model training.
+Exploratory Data Analysis (EDA) Module
+Analyzes traffic patterns, distributions, and attack trends.
+Anomaly Detection Module (Isolation Forest)
+Detects abnormal network behavior and suspicious activities.
+Threat Classification Module (XGBoost)
+Classifies detected anomalies into specific attack categories.
+Model Evaluation Module
+Measures performance using accuracy, precision, recall, F1-score, and confusion matrix.
+Visualization & Monitoring Dashboard Module
+Displays threat statistics, attack distributions, and model predictions.
+Deployment Module
+Deploys the complete end-to-end pipeline for real-time threat detection and analysis.
 
 **Frontend**
 
