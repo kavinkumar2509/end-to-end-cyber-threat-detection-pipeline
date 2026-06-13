@@ -61,3 +61,8 @@ The project follows a cloud-based deployment workflow:
 Google Colab was used for model development, experimentation, and training due to its accessible cloud computing resources.
 Ngrok was utilized during development to create a secure public tunnel, allowing external access to the locally hosted Streamlit application for testing and demonstration purposes.
 Hugging Face Spaces serves as the final deployment platform, hosting the Streamlit application and making it accessible through a web interface without requiring local installation.
+
+click the link to view the webpage to simulate attacks 
+
+
+https://2gdrahh7drfyajdg5zvrh5.streamlit.app/
